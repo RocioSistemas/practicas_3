@@ -51,6 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     <button onclick="mostrarSeccion('tardanzas')"> LLEGADAS TARDE</button>
     <button onclick="mostrarSeccion('rango')"> POR RANGO DE FECHAS</button>
     <button onclick="mostrarSeccion('buscar')"> BUSCAR POR LEGAJO / APELLIDO</button>
+    <button onclick="mostrarSeccion('volver')"> VOLVER</button>
   </nav>
 
   <main>
