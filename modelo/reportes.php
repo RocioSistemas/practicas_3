@@ -166,10 +166,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
   </main>
 
   <script>
-    function mostrarSeccion(id) {
-      document.querySelectorAll('section').forEach(sec => sec.classList.remove('active'));
-      document.getElementById(id).classList.add('active');
-    }
+    src="../controlador/mostrarSeccion.js"
   </script>
 
 </body>
