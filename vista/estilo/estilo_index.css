@@ -1,0 +1,63 @@
+body {
+      margin: 0;
+      padding: 0;
+      background-image: url('https://www.microtech.es/hubfs/IA_recursos_humanos.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: 'Arial', sans-serif;
+    }
+
+    form {
+      background-color: rgba(255, 255, 255, 0.9);
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+      max-width: 350px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      color: #117864;
+      margin-bottom: 25px;
+      font-size: 1.4em;
+    }
+
+    label {
+      color: #117864;
+      font-weight: bold;
+      display: block;
+      margin-bottom: 6px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-size: 0.95em;
+    }
+
+    input[type="submit"] {
+      background-color: #A3E4D7;
+      border: none;
+      color: #154360;
+      padding: 12px;
+      font-size: 1em;
+      border-radius: 6px;
+      cursor: pointer;
+      width: 100%;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #76D7C4;
+      color: #0B5345;
+    }
