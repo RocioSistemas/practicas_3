@@ -98,7 +98,7 @@ input[type="submit"]:hover {
             $email = $_POST['email'];
 
             mysqli_query($conexion, "UPDATE empleados 
-                SET nombre='$nombre', apellido='$apellido', telefono='$telefono', email='$email' 
+                SET dni= '$dni', nombre='$nombre', apellido='$apellido', telefono='$telefono', email='$email' 
                 WHERE dni='$dni'")
                 or die("Error al actualizar: " . mysqli_error($conexion));
 
@@ -114,6 +114,7 @@ input[type="submit"]:hover {
                 ?>
                 <form method="post">
                     <input type="hidden" name="dni" value="<?php echo $reg['dni']; ?>">
+                    <input type="text" name="dni" value="<?php echo $reg['dni']; ?>" placeholder="Dni"><br>
                     <input type="text" name="nombre" value="<?php echo $reg['nombre']; ?>" placeholder="Nombre"><br>
                     <input type="text" name="apellido" value="<?php echo $reg['apellido']; ?>" placeholder="Apellido"><br>
                     <input type="text" name="telefono" value="<?php echo $reg['telefono']; ?>" placeholder="Teléfono"><br>
